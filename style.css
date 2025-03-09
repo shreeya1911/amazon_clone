@@ -222,29 +222,3 @@ ul a{
 .copyright{
     padding-top:5px;
 }
-
-
-/* Your existing CSS styles here */
-
-/* Responsive Design for Mobile */
-@media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      padding: 10px;
-    }
-  
-    .navbar {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .product-grid {
-      grid-template-columns: 1fr; /* Show one product per row */
-    }
-  
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-  }
-  
